@@ -1,2 +1,1 @@
-# THIS IS THE README FILE
-
+"This is the hello-world project
