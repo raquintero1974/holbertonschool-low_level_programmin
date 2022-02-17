@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - This program prints the alphabetic in lower and upper case, followed by a new line
+ * main - Prints the alphabetic in lower and upper case
  *
  * Return: Always (Success)
  */
@@ -23,4 +23,3 @@ int main(void)
 
 	return (0);
 }
-

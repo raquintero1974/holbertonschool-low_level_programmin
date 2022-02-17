@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main - This program prints aphabetich without q and e letters 
+  * main - Prints some letters of alphabet
   *
   * Return: Always (Success)
   */
