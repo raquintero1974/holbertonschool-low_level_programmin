@@ -6,10 +6,12 @@
  * @src: the string to append
  * @n: the maximum number of bytes to append from src
  *
- * This function it will use at most n bytes from src; and src does not need to be null-terminated 
- * if it contains n or more bytes.
- * Return a pointer to the resulting string dest. 
- * */
+ * This function appends the string pointed to by src to the
+ * string pointed to by dest, overwriting the null byte at the end of dest,
+ * and then adding a terminating null byte, using most n bytes from src.
+ *
+ * Return: a pointer to the destination string dest
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 	char *dest_end = dest;
