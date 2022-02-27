@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print_times_table: prints times table of the specified dimension
- * @n: Dimension of times table
- *
- * Return: void
+ * print_times_table - Entry point
+ * @n: input
+ * Return: Always 0 (Success)
  */
 
 void print_times_table(int n)
