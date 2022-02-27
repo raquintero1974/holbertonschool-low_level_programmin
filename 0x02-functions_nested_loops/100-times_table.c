@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_times_table prints a table of the specified dimension
+ * print_times_table: prints times table of the specified dimension
  * @n: Dimension of times table
  *
  * Return: void
