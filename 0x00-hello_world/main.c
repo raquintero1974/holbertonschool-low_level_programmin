@@ -5,13 +5,11 @@
  * 
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
    char $CFILE="CFILE"
-
-   printf($CFILE);
-
-
+   printf("Hello world");
        	return 0;
 }
 
