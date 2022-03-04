@@ -8,7 +8,7 @@
 
 int main(void)
 {
-   char $CFILE="CFILE"
+
    printf("Hello world");
        	return 0;
 }
