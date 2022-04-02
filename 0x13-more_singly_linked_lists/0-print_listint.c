@@ -1,11 +1,8 @@
 #include "lists.h"
 /**
- * struct listint_s - singly linked list
- * @n: integer
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- * 
+ * print_listint - Entry Point
+ * @h: head
+ * Return: 0
  */
 size_t print_listint(const listint_t *h)
 {
