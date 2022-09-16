@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * struct skiplist_s - Singly linked list with an express lane
  *
@@ -14,6 +15,7 @@
  * Description: singly linked list node structure with an express lane
  * for Holberton project
  */
+
 typedef struct skiplist_s
 {
 	int n;
@@ -21,6 +23,7 @@ typedef struct skiplist_s
 	struct skiplist_s *next;
 	struct skiplist_s *express;
 } skiplist_t;
+
 /**
  * struct listint_s - singly linked list
  *
@@ -31,6 +34,7 @@ typedef struct skiplist_s
  * Description: singly linked list node structure
  * for Holberton project
  */
+
 typedef struct listint_s
 {
 	int n;
@@ -52,4 +56,6 @@ void free_skiplist(skiplist_t *list);
 skiplist_t *create_skiplist(int *array, size_t size);
 void print_skiplist(const skiplist_t *list);
 skiplist_t *linear_skip(skiplist_t *list, int value);
+
 #endif
+
